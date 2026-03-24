@@ -4,8 +4,8 @@ import { faComment, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "./UI.jsx";
 
 // 나의 랜더 주소로 바꿔야함
-let BACKEND = "https://cbot-rfcl.onrender.com/chat";
-BACKEND = "http://127.0.0.1:8000/chat";
+let BACKEND = "https://start-movie-aivs.onrender.com/chat";
+// BACKEND = "http://127.0.0.1:8000/chat";
 
 export default function Chatbot() {
   const [open, setOpen] = useState(false);
